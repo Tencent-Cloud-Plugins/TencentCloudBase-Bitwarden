@@ -7,7 +7,7 @@
       "client": {
         "use": "@cloudbase/framework-plugin-container",
         "inputs": {
-          "serviceName": "bitwarden",
+          "serviceName": "bitwardenrs",
           "servicePath": "/",
           "uploadType": "image",
           "containerPort": 80,
