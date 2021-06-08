@@ -18,6 +18,7 @@
             "DB_NAME": "bitwarden",
             "DATABASE_URL": "mysql://{{env.DB_USER}}:{{env.DB_PASS}}@{{env.DB_HOST}}:{{env.DB_PORT}}/bitwarden"
           },
+          "initialDelaySeconds": 10,
           "volumeMounts": {
             "/data": "bitwarden-cfs"
           }
